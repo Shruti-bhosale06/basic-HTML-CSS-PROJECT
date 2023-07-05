@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#row1
+{
+background-color: #1F1F1F;
+height: 30px;
+width: 100%;
+}
+.top-section
+{
+width: 90%;
+margin: 0 auto;
+}
+.left-links
+{
+width :60%;
+float:left;
+height: 100%;
+
+}
+.left-link ul
+{
+
+}
+ .left-link ul li
+{
+float: left;
+list-style: none;
+margin-left: 10px;
+color: aliceblue;
+line-height: 30px;
+
+}
+.left-link ul li a
+{
+color: aliceblue;
+text-decoration: none;
+}
+.social-links
+{
+    width :30%;
+    float:left;
+    height: 100%;
+    text-align: right;
+}
+.social-links i
+{
+color:aliceblue;
+line-height: 30px;
+border-right: 2px solid black ;
+padding-right: 8px;
+}
