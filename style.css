@@ -52,3 +52,59 @@ line-height: 30px;
 border-right: 2px solid black ;
 padding-right: 8px;
 }
+/*Row-1 Css End*/
+/*Row-2 Css Start*/
+#row-2
+{
+background-color: #f8f5f5;
+height: 80px;
+width: 100%;
+}
+.header_section
+{
+width :90%;
+margin: 0 auto;
+}
+.logo
+{
+width: 30%;
+float: left;
+}
+.logo img 
+{
+    margin-top: 10px;
+height :50px; 
+}
+.menu
+{
+width: 65%;
+float: right;
+text-align: right;
+}
+
+.menu ul 
+{
+  
+} 
+.menu ul li
+{
+float: left;
+width: 70px;
+line-height: 80px;
+text-align: center;
+list-style: none;
+}
+.menu ul li a
+{
+text-decoration: none;
+text-transform: uppercase;
+color: #61F1D0;
+}
+.menu ul li i{
+height: 30px;
+width: 30px;
+border: 2px solid #000;
+border-radius: 100%;
+line-height: 30px;
+}
+/*Row-2 Css End*/
