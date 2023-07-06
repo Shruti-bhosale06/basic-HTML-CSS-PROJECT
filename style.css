@@ -54,9 +54,9 @@ padding-right: 8px;
 }
 /*Row-1 Css End*/
 /*Row-2 Css Start*/
-#row-2
+#row2
 {
-background-color: #f8f5f5;
+background-color: white;
 height: 80px;
 width: 100%;
 }
@@ -84,12 +84,12 @@ text-align: right;
 
 .menu ul 
 {
-  
+    text-align: right;
 } 
 .menu ul li
 {
 float: left;
-width: 70px;
+width: 106px;
 line-height: 80px;
 text-align: center;
 list-style: none;
@@ -98,7 +98,8 @@ list-style: none;
 {
 text-decoration: none;
 text-transform: uppercase;
-color: #61F1D0;
+color: rgb(78, 39, 114);
+;
 }
 .menu ul li i{
 height: 30px;
@@ -108,3 +109,64 @@ border-radius: 100%;
 line-height: 30px;
 }
 /*Row-2 Css End*/
+/*Row-3 Css start*/
+#row-3
+{
+height: 700px;
+    width: 100%;
+background-image: url(./images/banner.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-repeat:round;
+}
+.overlayrow3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    position:absolute;
+}
+.banner_section
+{
+text-align: center;
+color:white;
+position: absolute;
+width: 90%;
+margin: 0 auto;
+}
+.banner_content
+{
+    
+}
+.banner_content h1
+{
+text-transform: uppercase;
+font-size: 50pX;
+line-height: 70pX;
+padding-top: 200px;
+}
+.banner_content p
+{
+font-size: 10px;
+font-weight: 600;
+margin-bottom: 40px;
+}
+.banner_button
+{
+
+}
+.banner_button button{
+    padding: 10px 20px;
+  background: none;
+    border: 2px solid #fff;
+    color: aquamarine;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.banner_button button:hover{
+    background-color: #455964;
+    transition: 1s;
+}
+
+
+/*Row-3 Css End*/
