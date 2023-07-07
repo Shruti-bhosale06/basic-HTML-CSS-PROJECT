@@ -173,26 +173,79 @@ margin-bottom: 40px;
 /*Row-4 Css start*/
 #row4
 {
-
+    background-color: #234757;
+    height: 80px;
+    width: 100%;
 }
 .form-section
 {
-
+width: 90%;
+margin:0 auto;
 }
 .text-part
-{
-
+{    width: 15%;
+    float:left;
+    text-transform: uppercase;
+padding-top: 10px;
 }
-.text-part h4{
-
+.text-part h4
+{
+line-height: 32px;
 }
 .text-part h1
 {
+color: #fff;
+}
+.form-part
+{
+    padding-top: 23px;
+}
+.form-part form
+{
+width: 80%;
+float :left;
 
 }
+
 .input-item
 {
-    
+float: left;
+padding-top: 10px;
+width:420px
+
 }
+.input-item label
+{
+font-size: 18px;
+font-weight: 500;
+color: gray;
+padding-right: 20px;
+}
+.input-item input[type="text"]
+{
+padding: 8px;
+width: 320px;
+color: gray;
+}
+.input-item input[type="date"]
+{
+    padding: 8px;
+width: 320px;
+color: gray;
+}
+.input-item i{
+color: grey;
+position: absolute;
+margin-left: -30px;
+line-height: 35px;
+}
+.form-part button{
+padding: 10px 20px;
+margin-top:10px ;
+background: lightslategray;
+border: none;
+}
+
+
 /*Row-4 Css End*/
 
