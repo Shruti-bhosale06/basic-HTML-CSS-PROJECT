@@ -404,4 +404,54 @@ font-size: 50px;
 
 }
 /*Row-6 Css End*/
+/*Row-7 Css Start*/
+#row-7
+{
+height:400px;
+width: 100%;
+background-color: #fff;
+}
+.happy-section
+{
+width: 90%;
+margin: 0 auto;
+}
+.happy-top
+{
+text-align: center;
+padding: 40px 0px;
+
+}
+.happy-top h1{
+text-transform: uppercase;
+}
+.happy-top p{
+
+}
+.happy-bottom
+{
+padding-bottom: 40px;
+}
+.happy-item
+{
+width: 30%;
+float: left;
+margin-left: 15px;
+border: 2px solid skyblue;
+padding :10px;
+transition: 1s;
+color: #3acdf1;
+}
+.happy-item:hover
+{
+    border-top: 5px solid #333;
+}
+.happy-item h4{
+text-align: justify;
+}
+.happy-item p
+{
+
+}
+/*Row-6 Css End*/
 
