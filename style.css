@@ -249,7 +249,7 @@ border: none;
 /*Row-5 Css Start*/
 #row{
  background-color: #fff;
-    height: 500px;
+    height: 400px;
     width: 100%;
 }
 .offer-section
@@ -289,10 +289,13 @@ padding: 40px 0px;
   box-shadow: 2px 2px 2px;
   padding: 5px;
   transition: 1s;
+  background-color: pink;
 }
 .offer-item:hover
 {
     transform:scale(1.2);
+    background: #2d3e50;
+    color: #ff;
 } 
 .offer-item img
 {
@@ -306,11 +309,20 @@ padding: 40px 0px;
 }
 .offer-text h3
 {
-    
+   font-size: 14px;
+   margin-left: 10px; 
+   padding-top: 10px;
 }
 .offer-text h4
 {
-    
+    font-size: 12px;
+   margin-left: 10px; 
+   padding-bottom: 10px;
+
+}
+.offer-item:hover .offer-text h4
+{
+   color: gray;
 }
 .offer-icon
 {
@@ -319,7 +331,7 @@ float: left;
 }
 .offer-icon i
 {
-
+line-height: 50px;
 }
 /*Row-5 Css End*/
 
