@@ -118,6 +118,7 @@ background-image: url(./images/banner.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-repeat:round;
+position: relative;
 }
 .overlayrow3{
     height: 100%;
@@ -452,5 +453,137 @@ text-align: justify;
 {
 
 }
-/*Row-6 Css End*/
+/*Row-7Css End*/
+/*Row-8Css Start*/
+#row-8
+{
+height: 370px;
+width: 100%;
+background-color: #303131;
+}
+.footer-section
+{
+width: 90%;
+margin: 0 auto;
 
+}
+.footer-top
+{
+padding: 40px 0px;
+border-bottom: 2px solid gray;
+height: 205px;
+}
+.footer-top-item
+{
+width: 22%;
+float: left;
+color: #fff;
+margin-left: 34px;
+}
+.footer-top-item h2
+{
+    margin-bottom: 10px;
+}
+
+.footer-top-item p
+{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+width: 224px;
+    
+}
+.footer-top-item input[type="email"]
+{
+padding: 5px;
+}
+.news-item
+{
+    height: 52px;
+}
+.news-item-left 
+{
+    width:30%;
+    float:left;
+}
+
+.news-item-left img{
+    height: 22px;
+    border: 2px solid #fff;
+}
+.news-item-right
+{
+    
+    width: 70%;
+    float: left;
+}
+
+.news-item-right h5
+{
+    margin-top: -2px;
+}
+.news-item-right p
+{
+    color: gray;
+    font-weight:600 ;
+}
+.footer-top-item ul {}
+.footer-top-item ul li 
+{
+    list-style: none;
+    border: 3px solid #fff;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+.footer-top-item h4
+ {
+    font-size: 14px;
+    line-height: 30px;
+ }
+.footer-top-item h5 {}
+.footer-top-item button
+{
+    padding: 7px 10px;
+    background-color: grey;
+    border: none;
+}
+.footer-icon {}
+.footer-icon i
+ {
+    margin-left: 18px;
+ }
+.footer-bottom {}
+.footer-menu
+{
+    height: 25px;
+}
+.footer-menu ul
+{ width: 434px;
+margin: 0 auto;
+margin-top: 6px;
+}
+.footer-menu ul li
+{
+    float: left;
+    list-style: none ;
+    margin-left: 20px;
+    text-transform:capitalize ;
+}
+.footer-menu ul li a
+{
+    color: gray;
+    text-decoration: none;
+}
+.copy--right
+{
+    text-align: ;
+}
+.copy-right p
+{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+/*Row-8Css End*/
